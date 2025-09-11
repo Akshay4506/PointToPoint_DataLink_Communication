@@ -1,0 +1,10 @@
+gcc -c frame.c
+gcc node_a.c frame.o -o node_a
+gcc node_b.c frame.o -o node_b
+gcc node_c.c frame.o -o node_c
+
+
+
+./node_a
+./node_b
+./node_c

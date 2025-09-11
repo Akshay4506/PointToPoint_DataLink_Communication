@@ -1,0 +1,8 @@
+gcc -c frame.c
+gcc frame.c node_a.c -o node_a -lws2_32
+gcc frame.c node_b.c -o node_b -lws2_32
+gcc frame.c node_c.c -o node_c -lws2_32
+
+./node_c
+./node_b
+./node_a
